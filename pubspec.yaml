@@ -1,0 +1,25 @@
+name: conversor_modular
+description: >-
+  Conversor de bases y laboratorio de bits. Ejemplo de proyecto Flutter
+  modular para la materia PDM-307 (Programación para Dispositivos
+  Móviles II) — INTFOSIN Khana Marka.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Sin dependencias externas: el gestor de estado es ChangeNotifier +
+  # InheritedNotifier, los dos del propio framework.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
